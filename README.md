@@ -22,7 +22,7 @@ will work on implementing CSS declarations in our HTML.
 
 First things first: we need to make sure our HTML is loading our stylesheet.
 
-We have two options:
+We have two options that are considered "best practice":
 
 1. Write CSS rules inside of a `<style>` tag ("internal CSS"), which tells HTML
    "Hey, I want to define some CSS styling here
