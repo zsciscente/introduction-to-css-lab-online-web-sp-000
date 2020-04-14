@@ -25,7 +25,7 @@ First things first: we need to make sure our HTML is loading our stylesheet.
 We have two options that are considered "best practice":
 
 1. Write CSS rules inside of a `<style>` tag ("internal CSS"), which tells HTML
-   "Hey, I want to define some CSS styling here
+   "Hey, I want to define some CSS styling here.
 2. Write CSS rules in an external file that is specified with the `<link>` tag
    ("external CSS").
 
@@ -79,7 +79,7 @@ sure to, after each update, look at `index.html` in the browser to see how it ha
 changed:
 
 - Set the `background` of the `<body>` element (whole document) to `#00b3e6` (light blue)
-- Set the `<div>` elements:
+- Set the `<div>` element's:
   - `width` to `700px`
   - `margin` to `auto` (centers our element)
   - `font-family` to `"Helvetica Neue"`
@@ -94,7 +94,7 @@ tests.
 
 ## Conclusion
 
-CSS allows us to easily separate our 'styling' logic into separate files that
+CSS allows us to easily separate our 'styling' logic into different files that
 follow the 'cascading' ruleset. This enables us to keep our HTML clean and
 simple to read, without sacrificing the customization that we have come to
 expect on websites.
